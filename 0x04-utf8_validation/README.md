@@ -1,10 +1,8 @@
-0x04. UTF-8 Validation
-Algorithm
-Python
- Weight: 1
- Project will start May 6, 2024 6:00 AM, must end by May 10, 2024 6:00 AM
- Checker will be released at May 7, 2024 6:00 AM
- An auto review will be launched at the deadline
+# 0x04. UTF-8 Validation
+<table>
+<td>Algorithm</td>
+<td>Python</td>
+ </table>
 For the “0x04. UTF-8 Validation” project, you will need to apply your knowledge in bitwise operations, understanding of the UTF-8 encoding scheme, and Python programming skills to validate whether a given dataset represents a valid UTF-8 encoding. Here’s a list of concepts and resources that will be helpful:
 
 Concepts Needed:
@@ -32,20 +30,10 @@ Boolean Logic:
 Applying logical operations to make decisions within the program.
 By studying these concepts and utilizing the resources provided, you will be equipped to tackle the UTF-8 validation project, effectively applying bitwise operations and logical reasoning to determine the validity of UTF-8 encoded data.
 
-Additional Resource
-Mock Technical Interview
-Requirements
-General
-Allowed editors: vi, vim, emacs
-All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.4.3)
-All your files should end with a new line
-The first line of all your files should be exactly #!/usr/bin/python3
-A README.md file, at the root of the folder of the project, is mandatory
-Your code should use the PEP 8 style (version 1.7.x)
-All your files must be executable
-Tasks
-0. UTF-8 Validation
-mandatory
+
+## Tasks
+## 0. UTF-8 Validation
+
 Write a method that determines if a given data set represents a valid UTF-8 encoding.
 
 Prototype: def validUTF8(data)
@@ -54,6 +42,7 @@ A character in UTF-8 can be 1 to 4 bytes long
 The data set can contain multiple characters
 The data will be represented by a list of integers
 Each integer represents 1 byte of data, therefore you only need to handle the 8 least significant bits of each integer
+```
 carrie@ubuntu:~/0x04-utf8_validation$ cat 0-main.py
 #!/usr/bin/python3
 """
@@ -77,8 +66,9 @@ True
 True
 False
 carrie@ubuntu:~/0x04-utf8_validation$
+```
 Repo:
 
-GitHub repository: alx-interview
-Directory: 0x04-utf8_validation
-File: 0-validate_utf8.py
+- GitHub repository: alx-interview
+- Directory: 0x04-utf8_validation
+- File: 0-validate_utf8.py
